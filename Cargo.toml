@@ -1,0 +1,20 @@
+[package]
+name = "aemi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dirs = "5.0.1"
+eframe = "0.27.2"
+native-dialog = { version = "0.7.0", features=["windows_dpi_awareness", "windows_visual_styles"] }
+system_uri = { git = "https://github.com/o7Moon/system_uri" }
+platform-dirs = "0.3.0"
+reqwest = { version = "0.12.2", features = ["blocking"] }
+zip = "0.6.6"
+zip-extensions = "0.6.2"
+anyhow = "1.0.81"
+egui_extras = { version = "0.27.2", features = ["all_loaders"] }
+lazy_static = "1.4.0"
+rand = "0.8.5"
